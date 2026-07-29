@@ -9,10 +9,26 @@
     ```
        
     ```
-3. Create Virtual Envirotment (Optional)
+2. Create Virtual Envirotment (Optional)
+
+   Windows
+
+   ```
+     python -m venv venv
+     venv\Scripts\activate
+       
+   ```
+   Linux/MacOs
+
+   ```
+     python3 -m venv venv
+     source venv/bin/activate
+   ```
 4. Install Dependencies
-5. Configure Kaggle API
-6. Run the Notebook
+
+   
+6. Configure Kaggle API
+7. Run the Notebook
 ## Model Architecture
 ## Result
 After training and testing process, the model achieved the following performance:
