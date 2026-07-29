@@ -4,6 +4,15 @@
 ## Features
 ## Project Structure
 ## Installation
+
+1. Installation
+    ```
+       
+    ```
+3. Create Virtual Envirotment (Optional)
+4. Install Dependencies
+5. Configure Kaggle API
+6. Run the Notebook
 ## Model Architecture
 ## Result
 After training and testing process, the model achieved the following performance:
