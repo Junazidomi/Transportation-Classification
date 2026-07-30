@@ -92,6 +92,42 @@ The following is the project structure:
    - Build and train the CNN model
    - Evaluate the trained model
 ## Model Architecture
+
+```
+        Input (64×64×3)
+                │
+                ▼
+        Conv2D (32, 3×3)
+                │
+            MaxPool2D
+                │
+           Dropout (0.25)
+                │
+                ▼
+        Conv2D (64, 3×3)
+                │
+             MaxPool2D
+                │
+          Dropout (0.25)
+                │
+                ▼
+        Conv2D (128, 3×3)
+                │
+           MaxPool2D
+                │
+         Dropout (0.5)
+                │
+           Dropout (0.3)
+                │
+             Flatten
+                │
+           Dense (64)
+                │
+          Dropout (0.5)
+                │
+             Softmax
+
+```
 ## Result
 After training and testing process, the model achieved the following performance:
 
