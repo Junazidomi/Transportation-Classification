@@ -93,6 +93,8 @@ The following is the project structure:
    - Evaluate the trained model
 ## Model Architecture
 
+The architecture model in this project is: 
+
 ```
         Input (64×64×3)
                 │
