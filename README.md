@@ -3,14 +3,56 @@
 ## Objectives
 ## Features
 ## Project Structure
+
+The following is the project structure:
+
+```
+      Animal-Face-Recognition/
+      │
+      ├── API/
+      │   └── kaggle.json
+      │
+      ├── Model/
+      │   └── model.h5
+      │
+      ├── Output/
+      │   ├── Accuracy Graph.png
+      |   ├── Loss Graph.png
+      │   ├── Confusion Matrix.png
+      │   ├── Cat Prediction.png
+      │
+      ├── src/
+      │   ├── data_loader.py
+      │   ├── model.py
+      │   ├── train.py
+      │   └── prediction.py
+      │
+      ├── Test/
+      │   ├── non-vehicles
+      |   |   ├── non-vehicles (1).jpeg
+      |   |   ├── non-vehicles (2).jpeg
+      |   |   ├── ...
+      |   |   └── non-vehicles (20)
+      |   |   
+      │   └── vehicles
+      |       ├── vehicles (1).jpeg
+      |       ├── vehicles (2).jpeg
+      |       ├── ...
+      |       └── vehicles (20)
+      |
+      ├── Notebook.ipynb
+      └── requirements.txt
+      └── README.md
+```
 ## Installation
 
 1. Installation
    
     ```
-       
+       git clone https://github.com/Junazidomi/Transportation-Classification.git
+       cd Transportation-Classification
     ```
-3. Create Virtual Envirotment (Optional)
+2. Create Virtual Envirotment (Optional)
 
    Windows
 
@@ -25,12 +67,13 @@
      python3 -m venv venv
      source venv/bin/activate
    ```
-4. Install Dependencies
+3. Install Dependencies
 
    ```
      pip install -r requirements.txt
    ```
-6. Configure Kaggle API
+   
+4. Configure Kaggle API
 
    Download the kaggle.json from your Kaggle Account, then save it to the following folder:
 
@@ -38,7 +81,16 @@
       API/
       └── kaggle.json
    ```
-8. Run the Notebook
+5. Run the Notebook
+
+   Open `Notebook.ipynb` using Jupyter Notebook, JupyterLab, or Visual Studio Code, then run all cells sequentially.
+
+   The notebook automatically:
+
+   - Download the dataset from kaggle.
+   - Preprocess and augment the data
+   - Build and train the CNN model
+   - Evaluate the trained model
 ## Model Architecture
 ## Result
 After training and testing process, the model achieved the following performance:
