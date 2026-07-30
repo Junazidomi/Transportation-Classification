@@ -6,10 +6,11 @@
 ## Installation
 
 1. Installation
+   
     ```
        
     ```
-2. Create Virtual Envirotment (Optional)
+3. Create Virtual Envirotment (Optional)
 
    Windows
 
@@ -26,9 +27,18 @@
    ```
 4. Install Dependencies
 
-   
+   ```
+     pip install -r requirements.txt
+   ```
 6. Configure Kaggle API
-7. Run the Notebook
+
+   Download the kaggle.json from your Kaggle Account, then save it to the following folder:
+
+   ```
+      API/
+      └── kaggle.json
+   ```
+8. Run the Notebook
 ## Model Architecture
 ## Result
 After training and testing process, the model achieved the following performance:
