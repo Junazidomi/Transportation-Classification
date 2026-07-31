@@ -1,7 +1,29 @@
 # Transportation Classification
 ## Description
 ## Objectives
+
+The objective of this project is:
+
+- Develop a CNN model to recognize vehicle or non vehicle.
+- Perform data preprocessing.
+- Train the model using Tensorflow/Keras.
+- Evaluate the model`s performance using various metrics.
+- Make predictions on a new image that the model have never seen before.
+  
 ## Features
+
+The feature of this project is
+
+- Dataset Preprocessing
+- CNN Image Classification
+- Model Training
+- Model Evaluation
+- Accuracy and Loss Visualization
+- Confusion Matrix
+- Classification Report
+- Prediction on a custom images
+- Saved trained model (model.h5)
+  
 ## Project Structure
 
 The following is the project structure:
