@@ -1,5 +1,8 @@
 # Transportation Classification
 ## Description
+
+Transportation Classification is a image classification project that uses a Convolutional Neural Network (CNN) to identify class which vehicles and non vehicles from digital image. The project includes data preprocessing, model training, evaluation, and prediction. The model is developed using Tensorflow and Keras, and its performance is evaluated using metrics such as accuracy, loss, confusion matrix, and classification report.
+
 ## Objectives
 
 The objective of this project is:
@@ -202,3 +205,5 @@ Below is a visualizatiion of the result:
    <img src="https://raw.githubusercontent.com/Junazidomi/Transportation-Classification/refs/heads/main/Output/Confusion%20Matrix.png" width="350"/>
    
 ## Evaluation
+
+
